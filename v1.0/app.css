@@ -112,23 +112,23 @@ hr {
   position: absolute;
 }
 
-.noSelect {
+.no-select {
   user-select: none;
 }
 
-.noPointer {
+.no-pointer {
   pointer-events: none;
 }
 
-.noOverflow {
+.no-overflow {
   overflow: hidden;
 }
 
-.noBorder {
+.no-border {
   border: 0;
 }
 
-.noBackground {
+.no-background {
   background: none;
 }
 
