@@ -1,0 +1,41 @@
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+    display: flex;
+}
+.row-reverse {
+    flex-direction: row-reverse;
+    display: flex;
+}
+
+.col {
+    flex-direction: column;
+    display: flex;
+
+}
+.col-reverse {
+    flex-direction: column-reverse;
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+
+    &.reverse {
+        flex-wrap: wrap-reverse;
+    }
+}
+
+.centerChildren {
+    justify-content: center;
+    align-items: center;
+}
+
+.centerSelf {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
