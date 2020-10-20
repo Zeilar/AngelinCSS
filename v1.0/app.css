@@ -356,10 +356,6 @@ hr {
   pointer-events: none;
 }
 
-.no-overflow {
-  overflow: hidden;
-}
-
 .no-background {
   background: none;
 }
@@ -466,6 +462,22 @@ hr {
 
 .text-justify {
   text-align: justify;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflow-visible {
+  overflow: visible;
 }
 
 /*# sourceMappingURL=app.css.map */
