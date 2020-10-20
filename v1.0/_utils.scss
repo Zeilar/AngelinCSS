@@ -266,15 +266,19 @@
     display: none;
 }
 
-.d-left-block {
+.d-flex {
+    display: flex;
+}
+
+.d-block {
     display: block;
 }
 
-.d-left-inline {
+.d-inline {
     display: inline;
 }
 
-.invisible-left {
+.invisible {
     opacity: 0;
 }
 
