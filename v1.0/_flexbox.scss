@@ -28,6 +28,7 @@
 .center-children {
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 
 .center-self {
@@ -35,4 +36,8 @@
     position: absolute;
     left: 50%;
     top: 50%;
+}
+
+.flex {
+    flex: 1;
 }
