@@ -20,9 +20,9 @@
 .wrap {
     flex-wrap: wrap;
 
-    &.reverse {
-        flex-wrap: wrap-reverse;
-    }
+}
+.reverse {
+    flex-wrap: wrap-reverse;
 }
 
 .center-children {

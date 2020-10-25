@@ -41,7 +41,8 @@ hr {
 .wrap {
   flex-wrap: wrap;
 }
-.wrap.reverse {
+
+.reverse {
   flex-wrap: wrap-reverse;
 }
 
