@@ -42,7 +42,7 @@ hr {
   flex-wrap: wrap;
 }
 
-.reverse {
+.wrap-reverse {
   flex-wrap: wrap-reverse;
 }
 
@@ -343,14 +343,6 @@ hr {
   border: 4px solid;
 }
 
-.relative {
-  position: relative;
-}
-
-.absolute {
-  position: absolute;
-}
-
 .no-select {
   user-select: none;
 }
@@ -485,6 +477,22 @@ hr {
 
 .overflow-visible {
   overflow: visible;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.static {
+  position: static;
 }
 
 /*# sourceMappingURL=app.css.map */
