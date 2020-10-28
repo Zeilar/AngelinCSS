@@ -359,3 +359,7 @@
 .static {
     position: static;
 }
+
+.mirror {
+    transform: translate(-1, 1);
+}
