@@ -1,4 +1,62 @@
 // Margin
+.mx-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+.mx-0 {
+    margin-right: 0;
+    margin-left: 0;
+}
+.mx-1 {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.mx-2 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.mx-3 {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.mx-4 {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.mx-5 {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.my-0 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.my-1 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.my-2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.my-3 {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.my-4 {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.my-5 {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
 .m-auto {
     margin: auto;
 }
@@ -110,6 +168,60 @@
 }
 
 // Padding
+.px-0 {
+    padding-right: 0;
+    padding-left: 0;
+}
+.px-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.px-2 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.px-3 {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.px-4 {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.px-5 {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+}
+.py-0 {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.py-1 {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.py-2 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.py-3 {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.py-4 {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.py-5 {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
 .p-0 {
     padding: 0;
 }
@@ -125,8 +237,8 @@
 .p-4 {
     padding: 50px;
 }
-.pt-5 {
-    padding-top: 100px;
+.p-5 {
+    padding: 100px;
 }
 
 .pt-0 {
@@ -242,6 +354,7 @@
     border-radius: 50%;
 }
 
+// Font style
 .bold {
     font-weight: bold;
 }
@@ -250,30 +363,30 @@
     font-style: italic;
 }
 
+
+// Cursor
 .pointer {
     cursor: pointer;
 }
 
+// Display
 .d-none {
     display: none;
 }
-
 .d-flex {
     display: flex;
 }
-
 .d-block {
     display: block;
 }
-
 .d-inline {
     display: inline;
 }
 
+// Visibility
 .invisible {
     opacity: 0;
 }
-
 .visible {
     opacity: 1;
 }
